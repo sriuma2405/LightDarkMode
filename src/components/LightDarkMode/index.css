@@ -1,0 +1,40 @@
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-size: 40px;
+  font-family: 'Roboto';
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-width: 2px;
+  border-color: #000000;
+  border-style: solid;
+  border-radius: 10px;
+  width: 500px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.dark-mode {
+  background-color: #000000;
+  color: #ffffff;
+}
+.light-mode {
+  background-color: #ffffff;
+}
+
+.button {
+  border-radius: 10px;
+  width: 150px;
+  height: 30px;
+}
